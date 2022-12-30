@@ -1,0 +1,25 @@
+.tile_no_hover{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    
+}
+
+body{
+    background-color:rgb(36, 36, 36);
+   
+}
+
+.tile_hover{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+#grid{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 320px;
+    flex-wrap: wrap;
+}
