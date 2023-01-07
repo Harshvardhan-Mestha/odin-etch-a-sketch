@@ -1,3 +1,6 @@
+
+
+
 .no_hover{
     background-color: black;
     border: 0px white solid;
@@ -7,25 +10,30 @@ body{
     background-color:rgb(36, 36, 36);
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
 .hover{
-    
     background-color: white;
 }
+
 #tile{
-    height: 28px;
-    width: 28px;
-    border: 1px white solid;
+    display: flex;
+    height: 4vh;
+    width: 4vh;
+    border: 0px white solid;
 }
 
 #grid{
     display: flex;
     flex-direction: column;
-    width: 480px;
-    height: 480px;
+    width: 64vh;
+    height: 64vh;
     flex-wrap: wrap;
     flex-shrink: 0;
     flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
 }
