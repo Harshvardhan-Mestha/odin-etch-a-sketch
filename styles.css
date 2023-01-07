@@ -20,20 +20,20 @@ body{
 
 #tile{
     display: flex;
-    height: 4vh;
-    width: 4vh;
+    height: 3vh;
+    width: 3vh;
     border: 0px white solid;
 }
 
 #grid{
     display: flex;
     flex-direction: column;
-    width: 64vh;
-    height: 64vh;
+    width: 48vh;
+    height: 48vh;
     flex-wrap: wrap;
     flex-shrink: 0;
     flex-basis: 0;
     justify-content: center;
     align-items: center;
-    margin-right: 500px;
+    margin-right: 000px;
 }
