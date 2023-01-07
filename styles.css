@@ -1,7 +1,6 @@
 
 .no_hover{
     background-color: black;
-    border: 0px white solid;
 }
 
 body{
@@ -24,11 +23,20 @@ body{
     width: 48vh;
     height: 48vh;
     flex-wrap: wrap;
+    border: 0.1vh white solid;
 }
 
 
 h1{
-    
+    margin-left: 12vh;
     font-family: helvetica,arial;
     color: lightblue;
+}
+
+button{
+    margin-top: 5vh;
+    margin-left: 14vh;
+    height: 5vh;
+    width: 20vh;
+
 }
