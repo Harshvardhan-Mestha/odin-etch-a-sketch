@@ -1,25 +1,31 @@
-.tile_no_hover{
-    height: 20px;
-    width: 20px;
+.no_hover{
     background-color: black;
-    
+    border: 0px white solid;
 }
 
 body{
     background-color:rgb(36, 36, 36);
-   
+    display: flex;
+    justify-content: center;
+
 }
 
-.tile_hover{
-    height: 20px;
-    width: 20px;
+.hover{
+    
     background-color: white;
+}
+#tile{
+    height: 28px;
+    width: 28px;
+    border: 1px white solid;
 }
 
 #grid{
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 320px;
+    width: 480px;
+    height: 480px;
     flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-basis: 0;
 }
