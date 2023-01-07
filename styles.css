@@ -26,14 +26,9 @@ body{
     flex-wrap: wrap;
 }
 
-#main{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(36, 36, 36);
-}
 
 h1{
-    margin-left: 12vh;
+    
     font-family: helvetica,arial;
     color: lightblue;
 }
