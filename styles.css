@@ -9,10 +9,8 @@
 body{
     background-color:rgb(36, 36, 36);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     margin:0 auto;
-
 }
 
 .hover{
@@ -20,10 +18,9 @@ body{
 }
 
 #tile{
-    display: flex;
-    height: 3vh;
-    width: 3vh;
-    border: 0px white solid;
+    height: 2.8vh;
+    width: 2.8vh;
+    border: 0.1vh white solid;
 }
 
 #grid{
@@ -32,5 +29,4 @@ body{
     width: 48vh;
     height: 48vh;
     flex-wrap: wrap;
-    flex-shrink: 0;
 }
