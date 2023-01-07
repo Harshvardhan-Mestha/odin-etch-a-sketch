@@ -1,6 +1,4 @@
 
-
-
 .no_hover{
     background-color: black;
     border: 0px white solid;
@@ -8,9 +6,6 @@
 
 body{
     background-color:rgb(36, 36, 36);
-    display: flex;
-    
-    margin:0 auto;
 }
 
 .hover{
@@ -29,4 +24,16 @@ body{
     width: 48vh;
     height: 48vh;
     flex-wrap: wrap;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(36, 36, 36);
+}
+
+h1{
+    margin-left: 12vh;
+    font-family: helvetica,arial;
+    color: lightblue;
 }
