@@ -12,9 +12,9 @@ body{
 }
 
 #tile{
-    height: 2.8vh;
-    width: 2.8vh;
-    border: 0.1vh white solid;
+    height: 3vh;
+    width: 3vh;
+    border: 0vh white solid;
 }
 
 #grid{
@@ -23,14 +23,16 @@ body{
     width: 48vh;
     height: 48vh;
     flex-wrap: wrap;
-    border: 0.1vh white solid;
+    border: 0vh white solid;
+    background-color: rgb(36, 36, 36);
 }
 
 
 h1{
-    margin-left: 12vh;
+    margin-left: 7vh;
     font-family: helvetica,arial;
     color: lightblue;
+    font-size: 5vh;
 }
 
 button{
@@ -38,5 +40,18 @@ button{
     margin-left: 14vh;
     height: 5vh;
     width: 20vh;
-
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
+
+.options{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+}
+
+.size{background-color: lightgrey;}
+.eraser{background-color:lightcoral}
+.eraser_on{background-color:lightgreen}
+.eraser_off{background-color: lightcoral;}
